@@ -10,9 +10,9 @@ aid in a quick audit of the logging settings per the best practice
 
  global variable BASE_URL will need to be updated with the url/IP of your FMC
 
- Developed and tested with the following environment
- OS: windows10
- Python: 3.11.5
- Target platform:  FMC 7.0.4
- Limitations: function getRules uses a limit of 1000. if your ACP contains more than 1000 rules
+ - Developed and tested with the following environment
+ - OS: windows10
+ - Python: 3.11.5
+ - Target platform:  FMC 7.0.4
+ - Limitations: function getRules uses a limit of 1000. if your ACP contains more than 1000 rules
                the function will need to be adapted for paging
